@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="380dp"
+        android:layout_height="130dp"
+        android:layout_gravity="center_horizontal"
+        android:weightSum="1">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bienvenue"
+            android:textColor="@color/textColor"
+            android:textSize="18dp"
+            android:id="@+id/welcome_txt"
+            android:gravity="center"/>
+
+        <ImageButton
+            android:layout_width="380dp"
+            android:layout_height="130dp"
+            android:id="@+id/imageButton"
+            android:src="@drawable/plats" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="380dp"
+        android:layout_height="130dp"
+        android:layout_gravity="center_horizontal"
+        android:weightSum="1">
+
+        <ImageButton
+            android:layout_width="380dp"
+            android:layout_height="130dp"
+            android:id="@+id/imageButton4"
+            android:src="@drawable/acomp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="380dp"
+        android:layout_height="130dp">
+
+        <ImageButton
+            android:layout_width="380dp"
+            android:layout_height="130dp"
+            android:id="@+id/imageButton2"
+            android:src="@drawable/dessert" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="380dp"
+        android:layout_height="130dp">
+
+        <ImageButton
+            android:layout_width="380dp"
+            android:layout_height="130dp"
+            android:id="@+id/imageButton3"
+            android:src="@drawable/boissons" />
+    </LinearLayout>
+</LinearLayout>

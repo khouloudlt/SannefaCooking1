@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">SannefaCooking</string>
+    <string name="prompt_name">Nom</string>
+
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_con_password">Confirmer Password</string>
+
+    <string name="login_bn_label">Login</string>
+    <string name="register_bn_label">Connecter</string>
+
+    <string name="sign_up">New user</string>
+
+
+</resources>

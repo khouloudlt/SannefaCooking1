@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:transitionGroup="false">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="383dp"
+        android:layout_height="121dp"
+        android:layout_weight="0.10"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="383dp"
+            android:layout_height="123dp"
+            android:id="@+id/imageView3"
+            android:src="@drawable/logo" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="380dp"
+        android:layout_height="140dp"
+        android:layout_weight="0.41"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Ingrédients"
+            android:id="@+id/textView"
+            android:textColor="@color/accent_material_light" />
+
+        <EditText
+            android:layout_width="380dp"
+            android:layout_height="120dp"
+            android:id="@+id/editText"
+            android:layout_weight="0.55" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="143dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Préparation"
+            android:id="@+id/textView2"
+            android:textColor="@color/material_deep_teal_500" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/editText2" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ajouter"
+        android:id="@+id/button4"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.10" />
+</LinearLayout>
